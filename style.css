@@ -5,11 +5,14 @@ body {
     font-family: 'Yeseva One', cursive;
     font-family: 'Lobster', cursive;
     font-family: 'Manrope', sans-serif;
+
 }
 
 /* Here, 
       title-color to use text = orange-yellow color
-    and .color-button for anchor tag button style */
+    and .color-button for anchor tag button style 
+    flexible-display for flex container
+    container-head use to some head tag */
 
 .title-color{
     color: #FFAD5A;
@@ -21,20 +24,28 @@ body {
     background-color: #FF5959;
     border-radius: 5px;
 }
+.flexible-display{
+    display: flex;
+    width: 100%;
+}
+.container-head{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
 
 /* .....top container or section-01 style part */
 
 .top-container{
-    display: flex;
-    width: 100%;
-    margin-top: 10%;
-    
+    margin-top: 10%;  
 }
 
 .head-title, .profile-container{
     width: 50%;
 }
-
 
 .head-title{
     padding-left: 10%;
@@ -42,8 +53,10 @@ body {
 .head-title h1{
     font-family: 'Yeseva One', cursive;
     font-size: 50px;
-    border-left: 2px solid #FF5959;
     padding-left: 10px;
+    border-left: 3px solid #FF5959;
+    height: 100px;
+
 }
 
 .head-title p{
@@ -65,17 +78,7 @@ body {
     margin-top: 5%;
     padding: 0 8%;
 }
-.middle-container-head{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-}
 
-.middile-container-card{
-    display: flex;
-    width: 100%;
-}
 .card{
     width: 30%;
     border-radius: 20px;
@@ -116,12 +119,8 @@ body {
     padding: 0 8%;
     background-image: url(img/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 20%;
     background-position: left;
- }
- .both-contain{
-    display: flex;
-    width: 100%;
  }
 
 /* ... ... .. img and text contain 01  */
@@ -149,7 +148,7 @@ body {
     padding: 0 8%;
     background-image: url(img/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 20%;
     background-position: right;
  } 
 
@@ -174,3 +173,60 @@ body {
    padding-right: 2%;
 }
 
+/*  .. ... .. contact me */
+
+.contact-me{
+    margin-top: 5%;
+    padding: 0 8%;
+}
+
+.contact-me form{
+    color: white;
+background-color: #FF5959;
+border-radius: 15px 15px 0 0;
+padding: 30px 20px 20px 20px;
+text-align: center;
+height: 200px;
+
+
+}
+.contact-me form input{
+   width: 40%;
+   margin: 10px;
+   border: 1px solid #FF5959;
+   border-radius: 10px;
+
+}
+#question{
+    width: 75%;
+}
+#submit{
+    padding: 10px;
+    color: #FF5959;
+    background-color: white;
+
+}
+
+
+/*  ... ... .. footer */
+footer{
+    background-color: rgba(11, 13, 23, 1);
+    text-align: center;
+    padding: 8px;
+  
+}
+footer h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    font-size: 25px;
+}
+#footer-text{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 10px;
+}
