@@ -38,7 +38,15 @@ body {
 
 
 /* .....top container or section-01 style part */
+#var-line{
+    position:absolute;
+    width: 5px;
+    height: 90px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    margin-top: 55px;
 
+}
 .top-container{
     margin-top: 10%;  
 }
@@ -54,9 +62,6 @@ body {
     font-family: 'Yeseva One', cursive;
     font-size: 50px;
     padding-left: 10px;
-    border-left: 3px solid #FF5959;
-    height: 100px;
-
 }
 
 .head-title p{
