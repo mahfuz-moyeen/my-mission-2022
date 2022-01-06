@@ -31,8 +31,8 @@
     padding: 0 8%;
 }
 
-
 /* .....top container or section-01 style part */
+
 #var-line{
     width: 4px;
     height: 90px;
@@ -40,15 +40,12 @@
     border-radius: 5px;
     margin-top: 55px;
 }
-
 .top-container{
     margin-top: 10%;  
 }
-
 .head-title, .profile-container{
     width: 50%;
 }
-
 .head-title{
     padding-left: 10%;
 }
@@ -57,14 +54,12 @@
     font-size: 50px;
     padding-left: 10px;
 }
-
 .head-title p{
     font-family: 'Poppins', sans-serif;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 .profile-container img{
     width: 50%;
     margin: auto;
@@ -72,7 +67,6 @@
 }
 
 /* .....middile container or section-02 style part */
-
 
 .card{
     width: 30%;
@@ -84,24 +78,23 @@
 .card img{
     width: 50%;
 }
- .card h1{
+.card h1{
      font-family: 'Poppins', sans-serif;
      font-size: 24px;
      font-weight: 600;
      padding: 0 5px;
-    
- }
- .card p{
+}
+.card p{
     font-family: 'Poppins', sans-serif;
     padding: 0 5px;
 }
 
  /* ...  ...  card color */
 
- .card-color-01{
+.card-color-01{
      background-color: rgba(79, 157, 166, 0.4);
      
- }
+}
  .card-color-02{
     background-color: rgba(255, 89, 89, 0.4);
 }
@@ -115,25 +108,26 @@
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: left;
- }
+}
 
 /* ... ... .. img and text contain 01  */
 
- .img-contain img{
+.img-contain img{
      width: 80%;
      margin-left: 2%;
- }
+}
  .text-contain{
     font-family: 'Poppins', sans-serif;
     margin-left: -5%;
- }
+}
  .text-contain h1{
      margin-bottom: -2%;
      font-size: 35px;
- }
+}
  .text-contain p{
     padding: 10px 0;
 }
+
 /*... ... ... last container-01 or section-03 */
 /* ... ... .. img and text contain 02  */
 
@@ -142,15 +136,13 @@
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: right;
- } 
-
+} 
 .img-contain-02 {
     margin-right: -10%;
 }
 .img-contain-02 img{
     width: 70%;
 }
-
 .text-contain-02{
    font-family: 'Poppins', sans-serif;
    margin-left: 2%;
@@ -165,25 +157,23 @@
    padding-right: 2%;
 }
 
-/*  .. ... .. contact me */
+/*  .. ... .contact me.. ..form.... */
 
 form{
     color: white;
-background-color: #FF5959;
-border-radius: 15px 15px 0 0;
-box-shadow: 1px -1px 10px rgb(168, 168, 168);
-padding: 30px 20px 20px 20px;
-text-align: center;
-height: 200px;
-font-family: 'Poppins', sans-serif;
-
+    background-color: #FF5959;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 1px -1px 10px rgb(168, 168, 168);
+    padding: 30px 20px 20px 20px;
+    text-align: center;
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
 }
 form input{
    width: 40%;
    margin: 10px;
    border: 1px solid #FF5959;
    border-radius: 10px;
-
 }
 #question{
     width: 75%;
@@ -193,16 +183,14 @@ form input{
     color: #FF5959;
     background-color: white;
     font-size: 18px;
-
 }
 
-
 /*  ... ... .. footer */
+
 footer{
     background-color: rgba(11, 13, 23, 1);
     text-align: center;
     padding: 8px;
-  
 }
 footer h1{
     color: white;
