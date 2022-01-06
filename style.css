@@ -1,21 +1,13 @@
 
-
-body {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Yeseva One', cursive;
-    font-family: 'Lobster', cursive;
-    font-family: 'Manrope', sans-serif;
-
-}
-
 /* Here, 
       title-color to use text = orange-yellow color
     and .color-button for anchor tag button style 
     flexible-display for flex container
-    container-head use to some head tag */
+    container-head use to some head tag
+    container-m-p use to section margin and padding */
 
 .title-color{
-    color: #FFAD5A;
+    color: #ff9e3c;
 }
 .color-button{
     text-decoration: none;
@@ -32,21 +24,23 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: bolder;
 }
-
+.container-m-p{
+    margin-top: 5%;
+    padding: 0 8%;
+}
 
 
 /* .....top container or section-01 style part */
 #var-line{
-    position:absolute;
-    width: 5px;
+    width: 4px;
     height: 90px;
     background-color: #FF5959;
     border-radius: 5px;
     margin-top: 55px;
-
 }
+
 .top-container{
     margin-top: 10%;  
 }
@@ -79,16 +73,13 @@ body {
 
 /* .....middile container or section-02 style part */
 
-.middle-container{
-    margin-top: 5%;
-    padding: 0 8%;
-}
 
 .card{
     width: 30%;
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
+    box-shadow: 2px 2px 10px rgba(189, 188, 188, 0.644);
 }
 .card img{
     width: 50%;
@@ -120,8 +111,6 @@ body {
 
  /*... ... ... last container-01 or section-03 */
 .last-container-01{
-    margin-top: 5%;
-    padding: 0 8%;
     background-image: url(img/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 20%;
@@ -131,7 +120,7 @@ body {
 /* ... ... .. img and text contain 01  */
 
  .img-contain img{
-     width: 70%;
+     width: 80%;
      margin-left: 2%;
  }
  .text-contain{
@@ -149,8 +138,6 @@ body {
 /* ... ... .. img and text contain 02  */
 
 .last-container-02{
-    margin-top: 5%;
-    padding: 0 8%;
     background-image: url(img/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 20%;
@@ -161,7 +148,7 @@ body {
     margin-right: -10%;
 }
 .img-contain-02 img{
-    width: 80%;
+    width: 70%;
 }
 
 .text-contain-02{
@@ -180,22 +167,18 @@ body {
 
 /*  .. ... .. contact me */
 
-.contact-me{
-    margin-top: 5%;
-    padding: 0 8%;
-}
-
-.contact-me form{
+form{
     color: white;
 background-color: #FF5959;
 border-radius: 15px 15px 0 0;
+box-shadow: 1px -1px 10px rgb(168, 168, 168);
 padding: 30px 20px 20px 20px;
 text-align: center;
 height: 200px;
-
+font-family: 'Poppins', sans-serif;
 
 }
-.contact-me form input{
+form input{
    width: 40%;
    margin: 10px;
    border: 1px solid #FF5959;
@@ -209,6 +192,7 @@ height: 200px;
     padding: 10px;
     color: #FF5959;
     background-color: white;
+    font-size: 18px;
 
 }
 
@@ -224,7 +208,7 @@ footer h1{
     color: white;
     font-family: 'Lobster', cursive;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 28px;
 }
 #footer-text{
     color: #FF5959;
@@ -233,5 +217,6 @@ footer h1{
 }
 footer p{
     color: rgba(255, 255, 255, 0.623);
+    font-family: 'Poppins', sans-serif;
     font-size: 10px;
 }
