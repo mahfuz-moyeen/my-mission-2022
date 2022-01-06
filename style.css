@@ -11,7 +11,7 @@
 }
 .color-button{
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     color: white;
     background-color: #FF5959;
     border-radius: 5px;
@@ -48,11 +48,13 @@
 }
 .head-title{
     padding-left: 10%;
+    
 }
 .head-title h1{
     font-family: 'Yeseva One', cursive;
     font-size: 50px;
     padding-left: 10px;
+    margin-bottom: 10px;
 }
 .head-title p{
     font-family: 'Poppins', sans-serif;
@@ -118,7 +120,8 @@
 }
  .text-contain{
     font-family: 'Poppins', sans-serif;
-    margin-left: -5%;
+    margin-top: -2%;
+    margin-left: -3%;
 }
  .text-contain h1{
      margin-bottom: -2%;
@@ -138,7 +141,7 @@
     background-position: right;
 } 
 .img-contain-02 {
-    margin-right: -10%;
+    margin-right: -14%;
 }
 .img-contain-02 img{
     width: 70%;
@@ -169,7 +172,7 @@ form{
     height: 200px;
     font-family: 'Poppins', sans-serif;
 }
-form input{
+form input {
    width: 40%;
    margin: 10px;
    border: 1px solid #FF5959;
