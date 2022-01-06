@@ -5,7 +5,10 @@
     flexible-display for flex container
     container-head use to some head tag
     container-m-p use to section margin and padding */
-
+body{
+        margin: 0;
+        padding: 0;
+}
 .title-color{
     color: #ff9e3c;
 }
@@ -122,14 +125,14 @@
  .text-contain{
     font-family: 'Poppins', sans-serif;
     margin-top: -2%;
-    margin-left: -3%;
+    margin-left: -2%;
 }
  .text-contain h1{
      margin-bottom: -2%;
      font-size: 35px;
 }
  .text-contain p{
-    padding: 10px 0;
+    padding: 10px 5px 10px 0;
 }
 
 /*... ... ... last container-01 or section-03 */
@@ -142,11 +145,11 @@
     background-position: right;
 } 
 .img-contain-02 {
-    margin-right: -10%;
+    margin-right: -5%;
 }
 .img-contain-02 img{
     width: 70%;
-    padding-left: 10;
+    padding-left: 15%;
 }
 .text-contain-02{
    font-family: 'Poppins', sans-serif;
